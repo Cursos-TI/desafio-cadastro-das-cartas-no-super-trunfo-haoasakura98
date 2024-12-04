@@ -52,11 +52,11 @@ int main() {
     //PIB per Capita: PIB total dividido pela população.
 
     float densidade = (float) populacao / area;
-    printf("Densidade: %.3f", densidade);
+    printf("Densidade: %.3f\n", densidade);
 
     float PIBperCAPITA = (float) PIB / populacao;
-    printf("PIB per Capita de: %.3f", PIBperCAPITA);
-    
+    printf("PIB per Capita de: %.3f\n", PIBperCAPITA);
+
 
     return 0;
 }
