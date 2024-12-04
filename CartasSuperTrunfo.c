@@ -47,5 +47,16 @@ int main() {
 
     printf("Cidade: %s\n Codigo: %d\n Pontos: %d\n População: %.3f\n Área: %.3lf\n PIB: %.3lf\n", nome, codigo, pontos, populacao, area, PIB);
 
+    // Novas Propriedades Calculadas:
+    //Densidade Populacional: População dividida pela área da cidade.
+    //PIB per Capita: PIB total dividido pela população.
+
+    float densidade = (float) populacao / area;
+    printf("Densidade: %.3f", densidade);
+
+    float PIBperCAPITA = (float) PIB / populacao;
+    printf("PIB per Capita de: %.3f", PIBperCAPITA);
+    
+
     return 0;
 }
